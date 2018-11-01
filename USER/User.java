@@ -1,5 +1,3 @@
-package USER;
-
 public interface User {
 	
 	void register(String u);

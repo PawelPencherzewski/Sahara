@@ -1,5 +1,3 @@
-package USER;
-
 import java.io.*;
 import java.util.*;
 

@@ -1,5 +1,3 @@
-package USER;
-
 public class UserFactory {
 
 	public User createUser(String usr){
