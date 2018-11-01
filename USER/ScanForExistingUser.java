@@ -17,6 +17,8 @@ public class ScanForExistingUser {
 			while((line = br.readLine()) != null){
 				usernamelist.add(line);
 			}
+			br.close();
+			fr.close();
 		}
 		catch(FileNotFoundException e) { }
 		catch(IOException a) { }

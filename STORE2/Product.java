@@ -27,8 +27,8 @@ public class Product {
 		return quantity;
 	}
 	
-	public void increaseQuantity(int quantity) {
-		this.quantity += quantity;
+	public void changeQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 	
 	public void changePrice(double price) {
